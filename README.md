@@ -37,8 +37,8 @@ Data engineering pipeline that loads, validates, and transforms real estate data
 
 ```bash
 # Clone repo
-git clone https://github.com/your-username/housing-price-pipeline.git
-cd housing-price-pipeline
+git clone https://github.com/pfcperez/housing-price-prediction.git
+cd housing-price-prediction
 
 # Create virtual environment
 python -m venv venv
@@ -47,9 +47,6 @@ source venv/bin/activate
 # Install dependencies
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost jupyter
 
-# Download data
-# Kaggle: Home Data for ML Course
-# Place train.csv and test.csv in /data/raw/
 ```
 
 ---
